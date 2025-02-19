@@ -1,0 +1,16 @@
+{
+	"name": "benchmark",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"bench": "tsx src/bench.ts"
+	},
+	"keywords": [],
+	"author": "Kevin Pennarun",
+	"license": "ISC",
+	"dependencies": {
+		"autocannon": "^8.0.0",
+		"tsx": "^4.19.2"
+	}
+}
