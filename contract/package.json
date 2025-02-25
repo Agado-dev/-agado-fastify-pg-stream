@@ -36,5 +36,8 @@
   },
   "release-it": {
     "git": false
+  },
+  "dependencies": {
+    "zod-to-json-schema": "^3.24.3"
   }
 }

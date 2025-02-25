@@ -7,7 +7,8 @@ export const appApiContract = tsRestContract.router({
   assets: publicAssetContract,
 });
 
-/** FOO **/
+/** REALTIME **/
+export * from "./realtime/realtime.model";
 
 /** ASSETS **/
 export * from "./publicAssets/publicAssets.contract";
